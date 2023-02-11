@@ -1,0 +1,12 @@
+# General
+Clases/
+*.pdf
+*.docx
+*.mp4
+*.png
+*.PNG
+
+# Archivos de Arduino
+debug_custom.json
+*.cfg
+*.svd

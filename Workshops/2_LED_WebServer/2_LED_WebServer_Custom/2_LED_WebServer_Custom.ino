@@ -52,11 +52,10 @@ void setup(){
     delay(1000);
     Serial.print(".");
   }
-  Serial.println("");
 
   // Imprimir IP asignada
-  Serial.print("Conexión exitosa\nIP asignada: ");
-  Serial.print(WiFi.localIP());
+  Serial.print("\r\nConexión exitosa\nIP asignada: ");
+  Serial.println(WiFi.localIP());
 
   // Ruta a la raíz (página de inicio)
   server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){

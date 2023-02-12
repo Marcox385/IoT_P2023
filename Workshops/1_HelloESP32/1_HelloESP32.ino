@@ -12,15 +12,14 @@ void setup(void) {
 
   /* Intentar conexión a la red;
      Imprimir "." mientras establece conexión */
-  Serial.println("Conectando a WiFi");
+  Serial.print("Conectando a WiFi");
   while (WiFi.status() != WL_CONNECTED) {
      delay(500);
      Serial.print(".");
   }
 
   // Imprimir IP asignada
-  Serial.println("");
-  Serial.print("Conexión exitosa\nIP asignada: ");
+  Serial.print("\r\nConexión exitosa\nIP asignada: ");
   Serial.print(WiFi.localIP());
 }
 

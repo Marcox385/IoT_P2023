@@ -31,9 +31,8 @@ void setup() {
     Serial.print(".");
   }
 
-  Serial.println("");
-  Serial.print("Conexión exitosa\nIP asignada: ");
-  Serial.print(WiFi.localIP());
+  Serial.print("\r\nConexión exitosa\nIP asignada: ");
+  Serial.println(WiFi.localIP());
 
   // Inicialización de servidor web
   server.begin();
@@ -45,8 +44,8 @@ void loop() {
   WiFiClient client = server.available();
   if (!client) return;
 
-  Serial.println("Nuevo cliente: ");
-  Serial.print(client.remoteIP());
+  Serial.print("Nuevo cliente: ");
+  Serial.println(client.remoteIP());
 
   // Esperar interacción del cliente
   while(!client.available()) delay(1);
@@ -87,7 +86,7 @@ void loop() {
 
   // Fin de comunicación con servidor
   Serial.print("Cliente desconectado: ");
-  Serial.print(client.remoteIP());
+  Serial.println(client.remoteIP());
   client.flush();
   client.stop();
 }

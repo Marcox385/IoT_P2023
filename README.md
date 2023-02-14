@@ -6,6 +6,7 @@ Repositorio original: https://github.com/edmundormz/IoT_Workshops
 - Workshop 1: [Imagen](https://drive.google.com/file/d/19j8upjem1mptYsQ_5tSg-P-I5B2oDtM6/view?usp=sharing)
 - Workshop 2: [Video](https://youtu.be/Y87mb693c-8)
 - Workshop 3: [Video](https://drive.google.com/file/d/1P6NaF_ceu2lAjYbSCZ4WGOurKoFiBcuD/view?usp=sharing); [Discusión (esp)](https://youtu.be/eOIkSxJtZ8E)
+- Workshop 4: [Video](https://youtu.be/uUBzmEps-iA)
 
 ## Errores conocidos/encontrados
 - Workshop 1:
@@ -25,3 +26,10 @@ Repositorio original: https://github.com/edmundormz/IoT_Workshops
   * Las conexiones no funcionan como se esperaban
     * **Solución**: rezar y esperar un milagro
     * *Nota*: el voltaje de los GPIOS de la ESP32 no puede convertirse a 5V, únicamente el pin VIN suministra este voltaje cuando se energiza la tarjeta mediante micro-usb, sin embargo, no se puede poner en bajo, estaría atada a alto. (Ver discusión)
+  
+- Workshop 4:
+  * El esquemático muestra 3.3V en la fuente de poder
+    * **Solución**: cambiar el jumper a 5V (si es que se sigue la misma configuración dada)
+  
+  * El programa no funciona, aún cuando está exactamente igual que el original
+    * **_(Posible)_ Solución: verificar que las librerías _NewPing_ y _DHT_ (de Adafruit) y sus dependencias estén instaladas

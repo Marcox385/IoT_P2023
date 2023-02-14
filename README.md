@@ -1,5 +1,5 @@
 # IoT_P2023
-Workshops reestructurados de la clase de IoT (Primavera 2023)
+Workshops reestructurados de la clase de IoT (Primavera 2023)  
 Repositorio original: https://github.com/edmundormz/IoT_Workshops
 
 ## Demostraciones (en inglés)
@@ -11,7 +11,7 @@ Repositorio original: https://github.com/edmundormz/IoT_Workshops
 ## Errores conocidos/encontrados
 - Workshop 1:
   * La dirección IP se imprime en otra línea
-    * *Solución*: cambiar *Serial.println()* por *Serial.print()*
+    * **Solución**: cambiar *Serial.println()* por *Serial.print()*
 
 - Workshop 2:
   * No es posible la carga de archivos a la ESP32
@@ -32,4 +32,4 @@ Repositorio original: https://github.com/edmundormz/IoT_Workshops
     * **Solución**: cambiar el jumper a 5V (si es que se sigue la misma configuración dada)
   
   * El programa no funciona, aún cuando está exactamente igual que el original
-    * **_(Posible)_ Solución: verificar que las librerías _NewPing_ y _DHT_ (de Adafruit) y sus dependencias estén instaladas
+    * **_(Posible)_ Solución**: verificar que las librerías _NewPing_ y _DHT_ (de Adafruit) y sus dependencias estén instaladas

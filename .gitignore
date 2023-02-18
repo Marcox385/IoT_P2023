@@ -5,8 +5,12 @@ Clases/
 *.mp4
 *.png
 *.PNG
+*.fzz
 
 # Archivos de Arduino
 debug_custom.json
 *.cfg
 *.svd
+
+# Esquemáticos propios
+!*Esq.png

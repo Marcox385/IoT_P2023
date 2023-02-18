@@ -7,6 +7,7 @@ Repositorio original: https://github.com/edmundormz/IoT_Workshops
 - Workshop 2: [Video](https://youtu.be/Y87mb693c-8)
 - Workshop 3: [Video](https://drive.google.com/file/d/1P6NaF_ceu2lAjYbSCZ4WGOurKoFiBcuD/view?usp=sharing); [Discusión (esp)](https://youtu.be/eOIkSxJtZ8E)
 - Workshop 4: [Video](https://youtu.be/uUBzmEps-iA)
+- Workshop 5: [Video](https://youtu.be/p9yOQkXemaA)
 
 ## Errores conocidos/encontrados
 - Workshop 1:
@@ -33,3 +34,6 @@ Repositorio original: https://github.com/edmundormz/IoT_Workshops
   
   * El programa no funciona, aún cuando está exactamente igual que el original
     * **_(Posible)_ Solución**: verificar que las librerías _NewPing_ y _DHT_ (de Adafruit) y sus dependencias estén instaladas
+
+- Workshop 5:
+  _Aún no se han reportado errores relacionados a este workshop_
